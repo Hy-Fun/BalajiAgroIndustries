@@ -1,0 +1,18 @@
+#passwordChangeTab{
+    display: none;
+}
+#phoneNumberRegisterCheck{
+ display: none;
+}
+ 
+input{
+    margin-right: 0px !important;
+}
+
+.ok{
+    color: #449D44;
+}
+
+.wrong{
+    color : #C9302C;
+}

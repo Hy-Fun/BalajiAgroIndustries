@@ -1,0 +1,63 @@
+
+body{
+    background-image: url('../images/homePC.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#table{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+table{
+    border-radius: 3px;
+}
+
+.login-button-margin{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.marginThis{
+    margin : 20px;
+}
+
+#browse{
+    margin-top: 220px;
+}
+
+@media only screen and (max-width:580px){
+    body{
+        background-image: url('../images/signUpPH.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    #browse{
+        margin-top: 170px;
+    }
+    
+    #table{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+}
+
+@media only screen and (max-width:900px){
+    
+    #browse{
+        margin-top: 210px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    
+    #table{
+        margin-left: 1px;
+        width: 100%;
+    }
+
+}
